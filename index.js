@@ -1,6 +1,4 @@
-var v=require('./business')
-let a=4;
-let b=5;
-console.log(v.add(a,b));
-console.log(v.diff(a,b));
-console.log(v.profit(a,b));
+var array=[1,2,4,5,6,9,8]
+var m=require('./math')
+sum=m.sum(array)
+console.log(sum)
