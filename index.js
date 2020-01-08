@@ -1,6 +1,6 @@
-require('./business.js')
+var v=require('./business')
 let a=4;
 let b=5;
-console.log(business.add(a,b));
-console.log(business.diff(a,b));
-console.log(a,b);
+console.log(v.add(a,b));
+console.log(v.diff(a,b));
+console.log(v.profit(a,b));

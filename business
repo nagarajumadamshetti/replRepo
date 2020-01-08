@@ -10,3 +10,4 @@ function profit(cp,sp)
 {
   return diff(sp,cp);
 }
+module.exports={add,diff,profit}
